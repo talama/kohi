@@ -12,10 +12,10 @@
       "-I/home/talama/vulkan/1.3.239.0/x86_64//include",
       "-o",
       "../bin/libengine.so",
-      "./src/test.c"
+      "./src/core/logger.c"
     ],
     "directory": "/home/talama/Projects/kohi/engine",
-    "file": "/home/talama/Projects/kohi/engine/src/test.c",
+    "file": "/home/talama/Projects/kohi/engine/src/core/logger.c",
     "output": "/home/talama/Projects/kohi/bin/libengine.so"
   },
   {
@@ -86,12 +86,12 @@
       "-x",
       "c",
       "-o",
-      "/tmp/test-f3e51c.o",
-      "./src/test.c"
+      "/tmp/logger-2cc019.o",
+      "./src/core/logger.c"
     ],
     "directory": "/home/talama/Projects/kohi/engine",
-    "file": "/home/talama/Projects/kohi/engine/src/test.c",
-    "output": "/tmp/test-f3e51c.o"
+    "file": "/home/talama/Projects/kohi/engine/src/core/logger.c",
+    "output": "/tmp/logger-2cc019.o"
   },
   {
     "arguments": [
@@ -181,11 +181,11 @@
       "-x",
       "c",
       "-o",
-      "/tmp/main-fa029a.o",
+      "/tmp/main-51bbb7.o",
       "./src/main.c"
     ],
     "directory": "/home/talama/Projects/kohi/testbed",
     "file": "/home/talama/Projects/kohi/testbed/src/main.c",
-    "output": "/tmp/main-fa029a.o"
+    "output": "/tmp/main-51bbb7.o"
   }
 ]
