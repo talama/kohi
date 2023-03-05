@@ -10,7 +10,7 @@
 // Disable debug and trace logging for release builds.
 #if KRELEASE == 1
 #define LOG_DEBUG_ENABLED 0
-#define LOLOG_TRACE_ENABLED 0
+#define LOG_TRACE_ENABLED 0
 #endif
 
 typedef enum log_level {
